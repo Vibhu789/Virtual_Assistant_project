@@ -176,10 +176,11 @@ function Home(){
             }
         }
         
-    
+          setTimeout(() => {
           const greeting = new SpeechSynthesisUtterance(`Hello ${userData.name}, what can I help you with?`);
           greeting.lang = `hi-IN`;
           window.speechSynthesis.speak(greeting);
+         }, 1000);
 
 
         return ()=>{
@@ -204,8 +205,8 @@ function Home(){
               <div className='w-full h-[2px] bg-gray-400'></div>
               <h1 className='text-white font-semibold text-[19px]'>History</h1>
               <div className='w-full h-[400px] gap-[20px] overflow-y-auto flex flex-col'>
-                {userData.history?.map((his)=>(
-               <div className='text-gray-200 text-[18px] w-full h-[30px]  '>{his}</div>
+                {userData.history?.map((his, index)=>(
+               <div  key={index} className='text-gray-200 text-[18px] w-full h-[30px]  '>{his}</div>
                ))}
               </div>
             </div>
@@ -214,7 +215,7 @@ function Home(){
             
             
             
-            <div className="w-[300px] h-[400] flex justify-center items-center overflow-hidden rounded-4xl shadow-lg">
+            <div className="w-[300px] h-[400px] flex justify-center items-center overflow-hidden rounded-4xl shadow-lg">
             <img src={userData?.assistantImage} alt="" className="h-full object-cover" />
             </div>
            <h1 className="text-white text-[18px] font-semibold">I'm {userData?.assistantName}</h1>
