@@ -36,6 +36,33 @@ Instructions:
 -"userInput": "Jal sanrakshan ke liye government kya kar rahi hai",
 -"response": "Sarkar groundwater management, rainwater harvesting aur Jal Jeevan Mission jaise karyakram chala rahi hai."
 
+-"type": "general",
+-"userInput": "Jal Jeevan Mission kya hai aur iska lakshya kya hai?",
+-"response": "Jal Jeevan Mission ka lakshya hai har ghar ko nal se shuddh paani ki supply dena."
+
+-"type": "general",
+-"userInput": "Mere district ka groundwater status kya hai?",
+-"response": "Aapke district ka groundwater status INGRES system se check kiya ja sakta hai jo safe, semi-critical, critical ya over-exploited batata hai."
+
+-"type": "general",
+-"userInput": "Groundwater safe hai ya over-exploited, kaise pata chalega?",
+-"response": "Yeh status CGWB ke groundwater assessment se milta hai jisme recharge aur extraction ka comparison karke category decide hoti hai."
+
+-"type": "general",
+-"userInput": "Paani bachane ke liye government ke kya steps hain?",
+-"response": "Sarkar rainwater harvesting, watershed management aur efficient irrigation jaise steps le rahi hai."
+
+- "type": "general",
+-"userInput": "Jal Shakti Ministry ke current projects kaunse hain?",
+-"response": "Iske projects me Jal Jeevan Mission, Atal Bhujal Yojana aur Namami Gange shamil hain."
+
+ -"type": "general",
+ - "userInput": "Paani ke liye government policy batao jo farmers ke liye useful ho.",
+ - "response": "Farmers ke liye micro-irrigation schemes, Pradhan Mantri Krishi Sinchai Yojana aur groundwater recharge yojna chal rahi hain."
+
+ - "type": "general",
+ -"userInput": "Rainwater harvesting ke liye government kya support karti hai?",
+ - "response": "Government subsidies aur guidelines deti hai rainwater harvesting structures banane ke liye."
 
 Type meanings:
 - "general": if it's a factual or informational question. aur agar koi aisa question puchta hai jiska answer tume pata hai usko bhi general ki category me rakho bas short answer dena
