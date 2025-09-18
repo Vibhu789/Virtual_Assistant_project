@@ -1,6 +1,4 @@
-
 import React from "react";
-import GroundwaterTable from "../GroundwaterTable"; 
 
 function Visualization() {
   return (
@@ -9,14 +7,15 @@ function Visualization() {
         Visualization Page
       </h1>
 
-      <div> Hello </div>
-       <div> Hello </div>
-       <div> Hello </div>
-      <GroundwaterTable />
+      {/* Test ke liye sirf Hello */}
+      <div>Hello</div>
+      <div>Hello</div>
+      <div>Hello</div>
     </div>
   );
 }
 
 export default Visualization;
+
 
 
