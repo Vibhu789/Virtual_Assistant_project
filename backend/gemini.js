@@ -403,6 +403,169 @@ Instructions:
     }
   }
 ]
+[
+  {
+    "type": "data",
+    "userInput": "What is the annual rainfall in Andhra Pradesh?",
+    "response": {
+      "english": "The annual rainfall in Andhra Pradesh is 891.99 mm.",
+      "hindi": "आंध्र प्रदेश में वार्षिक वर्षा 891.99 मिमी है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "How much groundwater is extractable in Bihar?",
+    "response": {
+      "english": "Bihar has 31,32,096.73 ham of annual extractable groundwater resources.",
+      "hindi": "बिहार में 31,32,096.73 हैक्टेयर मीटर वार्षिक निकासी योग्य भूजल संसाधन हैं।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Show me the groundwater extraction levels in Punjab.",
+    "response": {
+      "english": "Punjab extracts 26,26,761.47 ham of groundwater annually.",
+      "hindi": "पंजाब प्रतिवर्ष 26,26,761.47 हैक्टेयर मीटर भूजल निकालता है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which state has the highest rainfall?",
+    "response": {
+      "english": "Arunachal Pradesh has the highest annual rainfall at 3,318.78 mm.",
+      "hindi": "अरुणाचल प्रदेश में सबसे अधिक वार्षिक वर्षा होती है जो 3,318.78 मिमी है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which state extracts the most groundwater?",
+    "response": {
+      "english": "Uttar Pradesh extracts the most groundwater at 46,88,501.16 ham annually.",
+      "hindi": "उत्तर प्रदेश सबसे अधिक भूजल निकालता है, जो प्रतिवर्ष 46,88,501.16 हैक्टेयर मीटर है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Compare groundwater extraction in Madhya Pradesh and Maharashtra.",
+    "response": {
+      "english": "Madhya Pradesh: 20,25,793.92 ham\nMaharashtra: 16,81,918.51 ham\n👉 Madhya Pradesh extracts more groundwater than Maharashtra.",
+      "hindi": "मध्य प्रदेश: 20,25,793.92 हैक्टेयर मीटर\nमहाराष्ट्र: 16,81,918.51 हैक्टेयर मीटर\n👉 मध्य प्रदेश, महाराष्ट्र से अधिक भूजल निकालता है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which states have rainfall above 2000 mm annually?",
+    "response": {
+      "english": "States with rainfall above 2000 mm are: Arunachal Pradesh, Assam, Goa, Kerala, Meghalaya, Mizoram, Sikkim, Tripura, Andaman & Nicobar Islands.",
+      "hindi": "जिन राज्यों/केंद्र शासित प्रदेशों में 2000 मिमी से अधिक वर्षा होती है वे हैं: अरुणाचल प्रदेश, असम, गोवा, केरल, मेघालय, मिज़ोरम, सिक्किम, त्रिपुरा, अंडमान और निकोबार द्वीप।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which states are extracting more groundwater than their resources?",
+    "response": {
+      "english": "States over-extracting groundwater: Haryana, Punjab, Rajasthan.",
+      "hindi": "जिन राज्यों में संसाधनों से अधिक भूजल निकाला जा रहा है: हरियाणा, पंजाब, राजस्थान।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which state has the lowest annual rainfall?",
+    "response": {
+      "english": "Ladakh has the lowest rainfall at 69.36 mm.",
+      "hindi": "लद्दाख में सबसे कम वर्षा होती है, जो 69.36 मिमी है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "List the top 5 states with the highest groundwater resources.",
+    "response": {
+      "english": "Top 5 states with highest groundwater resources: Uttar Pradesh, Madhya Pradesh, Bihar, Maharashtra, Gujarat.",
+      "hindi": "सबसे अधिक भूजल संसाधनों वाले शीर्ष 5 राज्य: उत्तर प्रदेश, मध्य प्रदेश, बिहार, महाराष्ट्र, गुजरात।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which state is over-exploiting groundwater the most?",
+    "response": {
+      "english": "Punjab, with 156% extraction (26,26,761.47 ham extracted vs 16,79,943.44 ham available).",
+      "hindi": "पंजाब, जहां 156% निकासी होती है (26,26,761.47 हैक्टेयर मीटर निकाला गया जबकि 16,79,943.44 हैक्टेयर मीटर उपलब्ध था)।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Compare rainfall in Rajasthan and Kerala.",
+    "response": {
+      "english": "Rajasthan: 477.06 mm\nKerala: 2,800.10 mm\n👉 Kerala receives much higher rainfall than Rajasthan.",
+      "hindi": "राजस्थान: 477.06 मिमी\nकेरल: 2,800.10 मिमी\n👉 केरल में राजस्थान की तुलना में कहीं अधिक वर्षा होती है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "What is the groundwater extraction percentage in Haryana?",
+    "response": {
+      "english": "Haryana extracts about 137% of its available groundwater (12,71,939.84 / 9,30,112.81).",
+      "hindi": "हरियाणा अपने उपलब्ध भूजल का लगभग 137% निकालता है (12,71,939.84 / 9,30,112.81)।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which state has the maximum ratio of extraction to resources?",
+    "response": {
+      "english": "Punjab, with extraction at 156% of resources.",
+      "hindi": "पंजाब, जहां निकासी संसाधनों का 156% है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which state has the lowest groundwater extraction compared to its availability?",
+    "response": {
+      "english": "Arunachal Pradesh, with only 0.4% extraction (1,343.76 / 3,28,838.35).",
+      "hindi": "अरुणाचल प्रदेश, जहां केवल 0.4% निकासी होती है (1,343.76 / 3,28,838.35)।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "How much groundwater is extracted in Uttar Pradesh as a percentage of India?",
+    "response": {
+      "english": "Uttar Pradesh extracts 46,88,501.16 ham, about 19% of India’s total groundwater extraction.",
+      "hindi": "उत्तर प्रदेश 46,88,501.16 हैक्टेयर मीटर भूजल निकालता है, जो भारत की कुल निकासी का लगभग 19% है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "What is the total annual rainfall in India?",
+    "response": {
+      "english": "The average annual rainfall in India is 1,054.55 mm.",
+      "hindi": "भारत में औसत वार्षिक वर्षा 1,054.55 मिमी है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "What is the total groundwater extraction in India?",
+    "response": {
+      "english": "India extracts 2,47,16,472.34 ham of groundwater annually.",
+      "hindi": "भारत प्रतिवर्ष 2,47,16,472.34 हैक्टेयर मीटर भूजल निकालता है।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "How much groundwater is extractable across all states combined?",
+    "response": {
+      "english": "The total extractable groundwater resources in India are 4,07,16,046.48 ham.",
+      "hindi": "भारत में कुल निकासी योग्य भूजल संसाधन 4,07,16,046.48 हैक्टेयर मीटर हैं।"
+    }
+  },
+  {
+    "type": "data",
+    "userInput": "Which region contributes the most to India’s groundwater extraction?",
+    "response": {
+      "english": "Uttar Pradesh, with 46,88,501.16 ham, contributes the most.",
+      "hindi": "उत्तर प्रदेश, 46,88,501.16 हैक्टेयर मीटर के साथ, भारत के भूजल दोहन में सबसे अधिक योगदान देता है।"
+    }
+  }
+]
+
 
 ]
 
