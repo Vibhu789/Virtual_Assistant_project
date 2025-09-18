@@ -202,7 +202,7 @@ function Home(){
               
               <button className='min-w-[150px] h-[60px]  text-black font-semibold   bg-white rounded-full cursor-pointer text-[19px] ' onClick={handleLogOut}>Log Out</button>
               <button className='min-w-[150px] h-[60px]  text-black font-semibold  bg-white   rounded-full cursor-pointer text-[19px] px-[20px] py-[10px] ' onClick={()=>navigate("/customize")} >Customize your Assistant</button>
-              <div></div>
+             
               <button className='min-w-[150px] h-[60px] text-black font-semibold bg-white rounded-full cursor-pointer text-[19px] ' onClick={()=>navigate("/Visualization")} >Visualization</button>
             
                 
