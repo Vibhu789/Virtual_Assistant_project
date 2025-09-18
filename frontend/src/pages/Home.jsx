@@ -201,7 +201,7 @@ function Home(){
             <RxCross1 className=' text-white absolute top-[20px] right-[20px] w-[25px] h-[25px]' onClick={()=>setHam(false)}/>
               <button className='min-w-[150px] h-[60px]  text-black font-semibold   bg-white rounded-full cursor-pointer text-[19px] ' onClick={handleLogOut}>Log Out</button>
               <button className='min-w-[150px] h-[60px]  text-black font-semibold  bg-white   rounded-full cursor-pointer text-[19px] px-[20px] py-[10px] ' onClick={()=>navigate("/customize")} >Customize your Assistant</button>
-            <button className='min-w-[150px] h-[60px] mt-[30px] text-black font-semibold  bg-white absolute top-[100px] right-[20px] rounded-full cursor-pointer text-[19px] px-[20px] py-[10px] hidden lg:block ' onClick={()=>navigate("/Visualization")} >Visualization</button>
+            <button className='min-w-[150px] h-[60px] text-black font-semibold bg-white rounded-full cursor-pointer text-[19px] px-[20px] py-[10px] hidden lg:block ' onClick={()=>navigate("/Visualization")} >Visualization</button>
                 
               <div className='w-full h-[2px] bg-gray-400'></div>
               <h1 className='text-white font-semibold text-[19px]'>History</h1>
