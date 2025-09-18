@@ -202,7 +202,7 @@ function Home(){
               
               <button className='min-w-[150px] h-[60px]  text-black font-semibold   bg-white rounded-full cursor-pointer text-[19px] ' onClick={handleLogOut}>Log Out</button>
               <button className='min-w-[150px] h-[60px]  text-black font-semibold  bg-white   rounded-full cursor-pointer text-[19px] px-[20px] py-[10px] ' onClick={()=>navigate("/customize")} >Customize your Assistant</button>
-                <button className='min-w-[150px] h-[60px] text-black font-semibold bg-white rounded-full cursor-pointer text-[19px] mt-25 ml-10' onClick={()=>navigate("/visualization")} >Visualization</button>
+                <button className='min-w-[150px] h-[60px] text-black font-semibold bg-white rounded-full cursor-pointer text-[19px] mt-25 ml-10' onClick={()=>navigate("https://sushant3010.github.io/SIH/")} >Visualization</button>
              
               
             
@@ -218,7 +218,7 @@ function Home(){
 
             <button className='min-w-[150px] h-[60px] mt-[30px] text-black font-semibold absolute hidden lg:block top-[20px] right-[20px]  bg-white rounded-full cursor-pointer text-[19px] ' onClick={handleLogOut}>Log Out</button>
             <button className='min-w-[150px] h-[60px] mt-[30px] text-black font-semibold  bg-white absolute top-[100px] right-[20px] rounded-full cursor-pointer text-[19px] px-[20px] py-[10px] hidden lg:block ' onClick={()=>navigate("/customize")} >Customize your Assistant</button>
-            <button className='min-w-[150px] h-[60px] text-black font-semibold bg-white rounded-full cursor-pointer text-[19px] ' onClick={()=>navigate("/visualization")} >Visualization</button>
+            <button className='min-w-[150px] h-[60px] text-black font-semibold bg-white rounded-full cursor-pointer text-[19px] ' onClick={()=>navigate("https://sushant3010.github.io/SIH/")} >Visualization</button>
 
             
             
