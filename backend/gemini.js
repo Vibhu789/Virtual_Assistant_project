@@ -17,6 +17,127 @@ Your task is to understand the user's natural language input and respond with a 
 
 Instructions:
 [
+{
+  "type": "general",
+  "userInput": "Tell me the groundwater status of New Delhi in detail.",
+  "response": "In New Delhi, about 92% of groundwater is already being used. This means water levels are going down fast and the area is marked as 'Semi-Critical to Critical'. Strong water-saving steps are needed here."
+}
+{
+  "type": "general",
+  "userInput": "Show me the groundwater trend of Noida from 2015 to 2025.",
+  "response": "In Noida, water use has gone up by 20–25% in the last 10 years because of population and industries. If this continues, Noida will soon fall under the 'Critical' zone."
+}
+{
+  "type": "general",
+  "userInput": "Compare groundwater availability between New Delhi and Uttar Pradesh.",
+  "response": "Delhi has much less groundwater compared to UP. Delhi is already using 92% of its water, while UP is using around 70%. This means Delhi is under more pressure even though UP also faces stress in many areas."
+}
+{
+  "type": "general",
+  "userInput": "List all water-stressed districts in Uttar Pradesh.",
+  "response": "In UP, places like Noida and Greater Noida are facing big water problems because of cities and factories. Many districts in western UP are also over-using groundwater. These areas need recharge projects and strict rules."
+}
+{
+  "type": "general",
+  "userInput": "Which crops are suitable for groundwater levels in Greater Noida?",
+  "response": "In Greater Noida, water is already under pressure. Crops like wheat, mustard, pulses, and vegetables with drip irrigation are better. Water-heavy crops like paddy and sugarcane should be avoided."
+}
+{
+  "type": "general",
+  "userInput": "Show me the groundwater extraction trend in Uttar Pradesh from 2015 to 2025.",
+  "response": "Groundwater extraction in Uttar Pradesh has steadily increased from 41,000 ham in 2015 to over 46,000 ham in 2025, showing unsustainable growth."
+}
+{
+  "type": "general",
+  "userInput": "List all critical and over-exploited blocks in New Delhi.",
+  "response": "Most blocks in New Delhi are over-exploited, especially South, South West, and North West districts. Very few blocks remain safe."
+}
+{
+  "type": "general",
+  "userInput": "Compare groundwater availability in Greater Noida and Noida.",
+  "response": "Groundwater in Greater Noida is under more stress compared to Noida due to higher extraction and rapid urban growth."
+}
+{
+  "type": "general",
+  "userInput": "Which areas in Uttar Pradesh should be prioritized for water conservation programs?",
+  "response": "Western UP districts like Meerut, Ghaziabad, and Noida should be prioritized as they face the highest groundwater stress."
+}
+{
+  "type": "general",
+  "userInput": "What policies can be suggested for Delhi to reduce groundwater stress?",
+  "response": "Delhi should focus on rainwater harvesting, strict control on borewells, and reuse of treated wastewater for non-drinking purposes."
+}
+{
+  "type": "general",
+  "userInput": "Show a heatmap of water-stressed districts in Uttar Pradesh.",
+  "response": "A heatmap shows that districts in Western and Central Uttar Pradesh face the maximum stress, while Eastern UP is relatively better."
+}
+{
+  "type": "general",
+  "userInput": "Predict groundwater status in Noida by 2030 if current extraction continues.",
+  "response": "If current extraction continues, Noida may face severe water shortages by 2030 with almost 95% groundwater depletion."
+}
+{
+  "type": "general",
+  "userInput": "दिल्ली में ज़मीन के नीचे पानी की हालत डिटेल में बताओ।",
+  "response": "दिल्ली में ज़मीन का करीब 92% पानी पहले से ही यूज़ हो रहा है। मतलब पानी का लेवल तेज़ी से गिर रहा है और इलाका 'गंभीर' कैटेगरी में आ गया है। यहाँ पानी बचाने के पक्के कदम लेने ज़रूरी हैं।"
+}
+{
+  "type": "general",
+  "userInput": "2015 से 2025 तक नोएडा में पानी का लेवल कैसा रहा है?",
+  "response": "नोएडा में पिछले 10 सालों में आबादी और फैक्ट्रियों की वजह से पानी की खपत 20–25% बढ़ गई है। अगर ऐसे ही चलता रहा तो नोएडा जल्दी ही 'गंभीर' कैटेगरी में चला जाएगा।"
+}
+{
+  "type": "general",
+  "userInput": "दिल्ली और यूपी में ज़मीन के पानी की तुलना बताओ।",
+  "response": "दिल्ली के पास यूपी के मुकाबले बहुत कम पानी है। दिल्ली अपना 92% पानी खींच रही है, जबकि यूपी करीब 70% यूज़ कर रहा है। मतलब दिल्ली पर ज़्यादा दबाव है, लेकिन यूपी के कई इलाकों में भी हालत तंग है।"
+}
+{
+  "type": "general",
+  "userInput": "यूपी में कौन-कौन से जिले पानी की किल्लत झेल रहे हैं?",
+  "response": "यूपी में नोएडा और ग्रेटर नोएडा जैसे इलाकों में शहर और फैक्ट्रियों की वजह से पानी की भारी दिक्कत है। पश्चिमी यूपी के कई जिले भी ज़मीन का पानी ज़्यादा खींच रहे हैं। इन जगहों पर पानी भरने वाले प्रोजेक्ट्स और सख़्त नियम चाहिए।"
+}
+{
+  "type": "general",
+  "userInput": "ग्रेटर नोएडा में पानी की स्थिति के हिसाब से कौन-सी फसलें उगाना सही रहेगा?",
+  "response": "ग्रेटर नोएडा में पानी की हालत पहले से खराब है। यहाँ गेहूँ, सरसों, दालें और ड्रिप सिंचाई वाली सब्ज़ियाँ उगाना बेहतर है। धान और गन्ना जैसी ज़्यादा पानी खाने वाली फसलें लगाने से बचना चाहिए।"
+}
+{
+  "type": "general",
+  "userInput": "यूपी में 2015 से 2025 तक ज़मीन के पानी के इस्तेमाल का ट्रेंड बताओ।",
+  "response": "यूपी में 2015 से अब तक पानी का इस्तेमाल लगातार बढ़ा है — 41,000 हैक्टेयर मीटर से बढ़कर 46,000 हैक्टेयर मीटर से ज़्यादा हो गया है। यह अस्थिर स्थिति दिखा रहा है।"
+}
+{
+  "type": "general",
+  "userInput": "दिल्ली के कौन-कौन से ब्लॉक क्रिटिकल और ओवर-एक्सप्लॉइटेड हैं?",
+  "response": "दिल्ली के ज़्यादातर ब्लॉक ओवर-एक्सप्लॉइटेड हैं, ख़ासकर साउथ, साउथ वेस्ट और नॉर्थ वेस्ट जिलों में। बहुत कम जगहें सुरक्षित बची हैं।"
+}
+{
+  "type": "general",
+  "userInput": "ग्रेटर नोएडा और नोएडा में ज़मीन के पानी की स्थिति की तुलना करो।",
+  "response": "ग्रेटर नोएडा में पानी की स्थिति नोएडा से ज़्यादा तनाव में है क्योंकि यहाँ ज़्यादा पानी निकाला जा रहा है और शहरीकरण तेज़ी से हो रहा है।"
+}
+{
+  "type": "general",
+  "userInput": "यूपी के किन इलाकों को पानी बचाने की योजनाओं में प्राथमिकता देनी चाहिए?",
+  "response": "पश्चिमी यूपी के ज़िले जैसे मेरठ, गाज़ियाबाद और नोएडा को प्राथमिकता देनी चाहिए क्योंकि वहाँ पानी की कमी सबसे ज़्यादा है।"
+}
+{
+  "type": "general",
+  "userInput": "दिल्ली में पानी बचाने के लिए कौन-सी नीतियाँ लागू की जानी चाहिए?",
+  "response": "दिल्ली में बारिश के पानी को सहेजना, बोरवेल पर सख़्त नियंत्रण और गंदे पानी को ट्रीट करके गैर-पीने के कामों में इस्तेमाल करना सबसे सही नीतियाँ होंगी।"
+}
+{
+  "type": "general",
+  "userInput": "यूपी के पानी की कमी वाले जिलों का हीटमैप दिखाओ।",
+  "response": "हीटमैप बताता है कि पश्चिमी और मध्य यूपी के जिलों में पानी की कमी सबसे ज़्यादा है, जबकि पूर्वी यूपी की हालत थोड़ी बेहतर है।"
+}
+{
+  "type": "general",
+  "userInput": "अगर नोएडा में पानी का इस्तेमाल ऐसे ही चलता रहा तो 2030 तक स्थिति कैसी होगी?",
+  "response": "अगर ऐसे ही पानी निकाला जाता रहा तो 2030 तक नोएडा में 95% तक पानी खत्म हो सकता है और भारी कमी आ जाएगी।"
+}
+
   {
     "type": "general",
     "userInput": "Jal Shakti Ministry kya hai?",
