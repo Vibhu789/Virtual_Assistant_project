@@ -565,6 +565,24 @@ Instructions:
     }
   }
 ]
+[
+  {
+    "type": "agriculture",
+    "userInput": "1 बीघा मक्का में कितना पानी लगता है? / How much water is required for 1 bigha of maize?",
+    "response": {
+      "hindi": "1 बीघा मक्का की फसल के लिए लगभग 11–15 लाख लीटर पानी (1100–1500 m³) पूरे सीजन में चाहिए, जिसे 6–8 बार सिंचाई में दिया जाता है।",
+      "english": "For 1 bigha of maize, around 11–15 lakh liters of water (1100–1500 m³) is required during the entire season, usually given in 6–8 irrigations."
+    }
+  },
+  {
+    "type": "agriculture",
+    "userInput": "मक्का की फसल के लिए पानी का pH कितना होना चाहिए? / What should be the pH of water for maize crop?",
+    "response": {
+      "hindi": "मक्का के लिए पानी का pH 6.0–7.5 होना चाहिए। सबसे अच्छा 6.5–7.0 है।",
+      "english": "The pH of water for maize should be between 6.0–7.5, with the ideal range being 6.5–7.0."
+    }
+  }
+]
 
 
 ]
