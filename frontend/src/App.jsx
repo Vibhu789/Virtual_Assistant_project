@@ -18,7 +18,7 @@ function App() {
       <Route path='/signin' element={!userData?<SignIn/>:<Navigate to={"/"}/>}/>
       <Route path='/customize' element={userData?<Customize/>:<Navigate to={"/signup"}/>}/>
       <Route path='/customize2' element={userData?<Customize2/>:<Navigate to={"/signup"}/>}/> 
-     <Route path="/visualization" element={<visualization />} />
+     <Route path="/Visualization" element={<Visualization />} />
     </Routes>
   )
 }
