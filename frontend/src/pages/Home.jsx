@@ -202,16 +202,9 @@ function Home(){
               
               <button className='min-w-[150px] h-[60px]  text-black font-semibold   bg-white rounded-full cursor-pointer text-[19px] ' onClick={handleLogOut}>Log Out</button>
               <button className='min-w-[150px] h-[60px]  text-black font-semibold  bg-white   rounded-full cursor-pointer text-[19px] px-[20px] py-[10px] ' onClick={()=>navigate("/customize")} >Customize your Assistant</button>
-           
-                <button className="min-w-[150px] h-[60px] text-black font-semibold bg-white rounded-full cursor-pointer text-[19px] mt-25 ml-10">
-  <a 
-    href="https://sushant3010.github.io/SIH/" 
-    target="_blank" 
-    rel="noopener noreferrer"
-  >
-    Visualization
-  </a>
-</button>
+
+              <a href="https://sushant3010.github.io/SIH/" className="inline-block py-2.5 px-5 text-base text-center no-underline text-white bg-[#007bff] rounded-[5px] cursor-pointer hover:bg-[#0056b3]">Visualization</a>
+               
              
               
             
@@ -227,15 +220,8 @@ function Home(){
 
             <button className='min-w-[150px] h-[60px] mt-[30px] text-black font-semibold absolute hidden lg:block top-[20px] right-[20px]  bg-white rounded-full cursor-pointer text-[19px] ' onClick={handleLogOut}>Log Out</button>
             <button className='min-w-[150px] h-[60px] mt-[30px] text-black font-semibold  bg-white absolute top-[100px] right-[20px] rounded-full cursor-pointer text-[19px] px-[20px] py-[10px] hidden lg:block ' onClick={()=>navigate("/customize")} >Customize your Assistant</button>
-             <button className="min-w-[150px] h-[60px] text-black font-semibold bg-white rounded-full cursor-pointer text-[19px] mt-25 ml-10">
-  <a 
-    href="https://sushant3010.github.io/SIH/" 
-    target="_blank" 
-    rel="noopener noreferrer"
-  >
-    Visualization
-  </a>
-</button>
+              <a href="https://sushant3010.github.io/SIH/" className="inline-block py-2.5 px-5 text-base text-center no-underline text-white bg-[#007bff] rounded-[5px] cursor-pointer hover:bg-[#0056b3]">Visualization</a>
+               
              
 
             
