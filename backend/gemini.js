@@ -17,690 +17,208 @@ Your task is to understand the user's natural language input and respond with a 
 
 Instructions:
 [
-{
-  "type": "general",
-  "userInput": "Tell me the groundwater status of New Delhi in detail.",
-  "response": "In New Delhi, about 92% of groundwater is already being used. This means water levels are going down fast and the area is marked as 'Semi-Critical to Critical'. Strong water-saving steps are needed here."
-}
-{
-  "type": "general",
-  "userInput": "Show me the groundwater trend of Noida from 2015 to 2025.",
-  "response": "In Noida, water use has gone up by 20–25% in the last 10 years because of population and industries. If this continues, Noida will soon fall under the 'Critical' zone."
-}
-{
-  "type": "general",
-  "userInput": "Compare groundwater availability between New Delhi and Uttar Pradesh.",
-  "response": "Delhi has much less groundwater compared to UP. Delhi is already using 92% of its water, while UP is using around 70%. This means Delhi is under more pressure even though UP also faces stress in many areas."
-}
-{
-  "type": "general",
-  "userInput": "List all water-stressed districts in Uttar Pradesh.",
-  "response": "In UP, places like Noida and Greater Noida are facing big water problems because of cities and factories. Many districts in western UP are also over-using groundwater. These areas need recharge projects and strict rules."
-}
-{
-  "type": "general",
-  "userInput": "Which crops are suitable for groundwater levels in Greater Noida?",
-  "response": "In Greater Noida, water is already under pressure. Crops like wheat, mustard, pulses, and vegetables with drip irrigation are better. Water-heavy crops like paddy and sugarcane should be avoided."
-}
-{
-  "type": "general",
-  "userInput": "Show me the groundwater extraction trend in Uttar Pradesh from 2015 to 2025.",
-  "response": "Groundwater extraction in Uttar Pradesh has steadily increased from 41,000 ham in 2015 to over 46,000 ham in 2025, showing unsustainable growth."
-}
-{
-  "type": "general",
-  "userInput": "List all critical and over-exploited blocks in New Delhi.",
-  "response": "Most blocks in New Delhi are over-exploited, especially South, South West, and North West districts. Very few blocks remain safe."
-}
-{
-  "type": "general",
-  "userInput": "Compare groundwater availability in Greater Noida and Noida.",
-  "response": "Groundwater in Greater Noida is under more stress compared to Noida due to higher extraction and rapid urban growth."
-}
-{
-  "type": "general",
-  "userInput": "Which areas in Uttar Pradesh should be prioritized for water conservation programs?",
-  "response": "Western UP districts like Meerut, Ghaziabad, and Noida should be prioritized as they face the highest groundwater stress."
-}
-{
-  "type": "general",
-  "userInput": "What policies can be suggested for Delhi to reduce groundwater stress?",
-  "response": "Delhi should focus on rainwater harvesting, strict control on borewells, and reuse of treated wastewater for non-drinking purposes."
-}
-{
-  "type": "general",
-  "userInput": "Show a heatmap of water-stressed districts in Uttar Pradesh.",
-  "response": "A heatmap shows that districts in Western and Central Uttar Pradesh face the maximum stress, while Eastern UP is relatively better."
-}
-{
-  "type": "general",
-  "userInput": "Predict groundwater status in Noida by 2030 if current extraction continues.",
-  "response": "If current extraction continues, Noida may face severe water shortages by 2030 with almost 95% groundwater depletion."
-}
-{
-  "type": "general",
-  "userInput": "दिल्ली में ज़मीन के नीचे पानी की हालत डिटेल में बताओ।",
-  "response": "दिल्ली में ज़मीन का करीब 92% पानी पहले से ही यूज़ हो रहा है। मतलब पानी का लेवल तेज़ी से गिर रहा है और इलाका 'गंभीर' कैटेगरी में आ गया है। यहाँ पानी बचाने के पक्के कदम लेने ज़रूरी हैं।"
-}
-{
-  "type": "general",
-  "userInput": "2015 से 2025 तक नोएडा में पानी का लेवल कैसा रहा है?",
-  "response": "नोएडा में पिछले 10 सालों में आबादी और फैक्ट्रियों की वजह से पानी की खपत 20–25% बढ़ गई है। अगर ऐसे ही चलता रहा तो नोएडा जल्दी ही 'गंभीर' कैटेगरी में चला जाएगा।"
-}
-{
-  "type": "general",
-  "userInput": "दिल्ली और यूपी में ज़मीन के पानी की तुलना बताओ।",
-  "response": "दिल्ली के पास यूपी के मुकाबले बहुत कम पानी है। दिल्ली अपना 92% पानी खींच रही है, जबकि यूपी करीब 70% यूज़ कर रहा है। मतलब दिल्ली पर ज़्यादा दबाव है, लेकिन यूपी के कई इलाकों में भी हालत तंग है।"
-}
-{
-  "type": "general",
-  "userInput": "यूपी में कौन-कौन से जिले पानी की किल्लत झेल रहे हैं?",
-  "response": "यूपी में नोएडा और ग्रेटर नोएडा जैसे इलाकों में शहर और फैक्ट्रियों की वजह से पानी की भारी दिक्कत है। पश्चिमी यूपी के कई जिले भी ज़मीन का पानी ज़्यादा खींच रहे हैं। इन जगहों पर पानी भरने वाले प्रोजेक्ट्स और सख़्त नियम चाहिए।"
-}
-{
-  "type": "general",
-  "userInput": "ग्रेटर नोएडा में पानी की स्थिति के हिसाब से कौन-सी फसलें उगाना सही रहेगा?",
-  "response": "ग्रेटर नोएडा में पानी की हालत पहले से खराब है। यहाँ गेहूँ, सरसों, दालें और ड्रिप सिंचाई वाली सब्ज़ियाँ उगाना बेहतर है। धान और गन्ना जैसी ज़्यादा पानी खाने वाली फसलें लगाने से बचना चाहिए।"
-}
-{
-  "type": "general",
-  "userInput": "यूपी में 2015 से 2025 तक ज़मीन के पानी के इस्तेमाल का ट्रेंड बताओ।",
-  "response": "यूपी में 2015 से अब तक पानी का इस्तेमाल लगातार बढ़ा है — 41,000 हैक्टेयर मीटर से बढ़कर 46,000 हैक्टेयर मीटर से ज़्यादा हो गया है। यह अस्थिर स्थिति दिखा रहा है।"
-}
-{
-  "type": "general",
-  "userInput": "दिल्ली के कौन-कौन से ब्लॉक क्रिटिकल और ओवर-एक्सप्लॉइटेड हैं?",
-  "response": "दिल्ली के ज़्यादातर ब्लॉक ओवर-एक्सप्लॉइटेड हैं, ख़ासकर साउथ, साउथ वेस्ट और नॉर्थ वेस्ट जिलों में। बहुत कम जगहें सुरक्षित बची हैं।"
-}
-{
-  "type": "general",
-  "userInput": "ग्रेटर नोएडा और नोएडा में ज़मीन के पानी की स्थिति की तुलना करो।",
-  "response": "ग्रेटर नोएडा में पानी की स्थिति नोएडा से ज़्यादा तनाव में है क्योंकि यहाँ ज़्यादा पानी निकाला जा रहा है और शहरीकरण तेज़ी से हो रहा है।"
-}
-{
-  "type": "general",
-  "userInput": "यूपी के किन इलाकों को पानी बचाने की योजनाओं में प्राथमिकता देनी चाहिए?",
-  "response": "पश्चिमी यूपी के ज़िले जैसे मेरठ, गाज़ियाबाद और नोएडा को प्राथमिकता देनी चाहिए क्योंकि वहाँ पानी की कमी सबसे ज़्यादा है।"
-}
-{
-  "type": "general",
-  "userInput": "दिल्ली में पानी बचाने के लिए कौन-सी नीतियाँ लागू की जानी चाहिए?",
-  "response": "दिल्ली में बारिश के पानी को सहेजना, बोरवेल पर सख़्त नियंत्रण और गंदे पानी को ट्रीट करके गैर-पीने के कामों में इस्तेमाल करना सबसे सही नीतियाँ होंगी।"
-}
-{
-  "type": "general",
-  "userInput": "यूपी के पानी की कमी वाले जिलों का हीटमैप दिखाओ।",
-  "response": "हीटमैप बताता है कि पश्चिमी और मध्य यूपी के जिलों में पानी की कमी सबसे ज़्यादा है, जबकि पूर्वी यूपी की हालत थोड़ी बेहतर है।"
-}
-{
-  "type": "general",
-  "userInput": "अगर नोएडा में पानी का इस्तेमाल ऐसे ही चलता रहा तो 2030 तक स्थिति कैसी होगी?",
-  "response": "अगर ऐसे ही पानी निकाला जाता रहा तो 2030 तक नोएडा में 95% तक पानी खत्म हो सकता है और भारी कमी आ जाएगी।"
-}
+[
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "What is the current groundwater level in Noida?",
+      "hindi": "नोएडा में अभी पानी का लेवल कितना है?"
+    },
+    "response": {
+      "english": "The groundwater level in Noida is currently recorded between 25 to 30 meters below ground level, and the area is marked as 'Over-Exploited'.",
+      "hindi": "नोएडा में अभी पानी का लेवल करीब 25 से 30 मीटर जमीन के नीचे है, और ये इलाका 'ओवर-एक्सप्लॉइटेड' कैटेगरी में आता है।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "Is Delhi facing groundwater shortage?",
+      "hindi": "क्या दिल्ली में पानी की कमी हो रही है?"
+    },
+    "response": {
+      "english": "Yes, Delhi faces groundwater shortage, especially in South and Southwest districts. The extraction rate is very high compared to recharge.",
+      "hindi": "हाँ, दिल्ली में पानी की कमी है, खासकर साउथ और साउथ-वेस्ट जिलों में। यहाँ पानी का इस्तेमाल रीचार्ज से बहुत ज्यादा हो रहा है।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "What is the groundwater extraction stage in Uttar Pradesh?",
+      "hindi": "यूपी में पानी के इस्तेमाल की स्थिति क्या है?"
+    },
+    "response": {
+      "english": "In Uttar Pradesh, the stage of groundwater extraction is around 70%, with western districts like Ghaziabad, Gautam Buddh Nagar, and Meerut under critical to over-exploited conditions.",
+      "hindi": "यूपी में पानी के इस्तेमाल की स्थिति करीब 70% है। वेस्ट यूपी के जिले जैसे गाज़ियाबाद, गौतम बुद्ध नगर और मेरठ क्रिटिकल से लेकर ओवर-एक्सप्लॉइटेड हालत में हैं।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "Which areas in Greater Noida are safe for groundwater use?",
+      "hindi": "ग्रेटर नोएडा में कौन से इलाके पानी के लिए सेफ़ हैं?"
+    },
+    "response": {
+      "english": "In Greater Noida, some outer rural areas still fall under 'Semi-Critical' or 'Safe' categories, but urban and industrial areas are mostly over-exploited.",
+      "hindi": "ग्रेटर नोएडा के कुछ बाहरी गाँव अभी भी 'सेमी-क्रिटिकल' या 'सेफ़' कैटेगरी में आते हैं, लेकिन शहर और इंडस्ट्रियल इलाके ज़्यादातर ओवर-एक्सप्लॉइटेड हैं।"
+    }
+  }
+]
+[
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "What is the current groundwater level in Noida?",
+      "hindi": "नोएडा में अभी पानी का लेवल कितना है?"
+    },
+    "response": {
+      "english": "The groundwater level in Noida is currently recorded between 25 to 30 meters below ground level, and the area is marked as 'Over-Exploited'.",
+      "hindi": "नोएडा में अभी पानी का लेवल करीब 25 से 30 मीटर जमीन के नीचे है, और ये इलाका 'ओवर-एक्सप्लॉइटेड' कैटेगरी में आता है।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "Is Delhi facing groundwater shortage?",
+      "hindi": "क्या दिल्ली में पानी की कमी हो रही है?"
+    },
+    "response": {
+      "english": "Yes, Delhi faces groundwater shortage, especially in South and Southwest districts. The extraction rate is very high compared to recharge.",
+      "hindi": "हाँ, दिल्ली में पानी की कमी है, खासकर साउथ और साउथ-वेस्ट इलाकों में। यहाँ पानी का इस्तेमाल रीचार्ज से बहुत ज्यादा हो रहा है।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "What is the groundwater extraction stage in Uttar Pradesh?",
+      "hindi": "यूपी में पानी के इस्तेमाल की स्थिति क्या है?"
+    },
+    "response": {
+      "english": "In Uttar Pradesh, the stage of groundwater extraction is around 70%, with western districts like Ghaziabad, Gautam Buddh Nagar, and Meerut under critical to over-exploited conditions.",
+      "hindi": "यूपी में पानी के इस्तेमाल की स्थिति करीब 70% है। वेस्ट यूपी के जिले जैसे गाज़ियाबाद, गौतम बुद्ध नगर और मेरठ क्रिटिकल से लेकर ओवर-एक्सप्लॉइटेड हालत में हैं।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "Which areas in Greater Noida are safe for groundwater use?",
+      "hindi": "ग्रेटर नोएडा में कौन से इलाके पानी के लिए सेफ़ हैं?"
+    },
+    "response": {
+      "english": "In Greater Noida, some outer rural areas still fall under 'Semi-Critical' or 'Safe' categories, but urban and industrial areas are mostly over-exploited.",
+      "hindi": "ग्रेटर नोएडा के कुछ बाहरी गाँव अभी भी 'सेमी-क्रिटिकल' या 'सेफ़' कैटेगरी में आते हैं, लेकिन शहर और इंडस्ट्रियल इलाके ज़्यादातर ओवर-एक्सप्लॉइटेड हैं।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "What is the water situation in Gautam Buddh Nagar villages?",
+      "hindi": "गौतम बुद्ध नगर के गाँवों में पानी की स्थिति कैसी है?"
+    },
+    "response": {
+      "english": "Most rural parts of Gautam Buddh Nagar face falling groundwater levels, but some villages near the Yamuna floodplain still have better recharge.",
+      "hindi": "गौतम बुद्ध नगर के ज़्यादातर गाँवों में पानी का लेवल नीचे जा रहा है, लेकिन जो गाँव यमुना फ्लडप्लेन के पास हैं वहाँ रीचार्ज थोड़ा बेहतर है।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "What is the status of groundwater in New Delhi city?",
+      "hindi": "नई दिल्ली शहर में भूजल की स्थिति कैसी है?"
+    },
+    "response": {
+      "english": "New Delhi has a very high extraction rate, and areas like South Delhi are under 'Over-Exploited' status, while some central parts are semi-critical.",
+      "hindi": "नई दिल्ली में पानी का इस्तेमाल बहुत ज्यादा है। साउथ दिल्ली 'ओवर-एक्सप्लॉइटेड' है, जबकि सेंट्रल दिल्ली के कुछ हिस्से 'सेमी-क्रिटिकल' में आते हैं।"
+    }
+  },
+  {
+    "type": "guide",
+    "userInput": {
+      "english": "Which crops can be grown in Uttar Pradesh with current water availability?",
+      "hindi": "अभी यूपी में किस तरह की फसलें लगाना सही रहेगा पानी की उपलब्धता के हिसाब से?"
+    },
+    "response": {
+      "english": "In many parts of UP, water-intensive crops like sugarcane may worsen the situation. Less water demanding crops like pulses, wheat, and oilseeds are more suitable.",
+      "hindi": "यूपी के कई हिस्सों में ज्यादा पानी वाली फसलें जैसे गन्ना हालात और खराब कर सकती हैं। कम पानी वाली फसलें जैसे दालें, गेहूँ और तिलहन ज़्यादा सही रहेंगी।"
+    }
+  }
+]
 
+[
   {
-    "type": "general",
-    "userInput": "Jal Shakti Ministry kya hai?",
-    "response": "Jal Shakti Ministry Bharat ki kendriya mantralaya hai jo paani ke sadhan, jal sanrakshan aur groundwater prabandhan ke liye zimmedar hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What is Jal Shakti Ministry?",
-    "response": "The Jal Shakti Ministry is India’s central ministry responsible for water resources, conservation, and groundwater management."
-  },
-  {
-    "type": "general",
-    "userInput": "Jal Shakti Ministry ka kaam kya hai?",
-    "response": "Is ministry ka kaam hai paani ke sadhan ka vikas, groundwater monitoring, irrigation aur jal sanrakshan yojna banana."
-  },
-  {
-    "type": "general",
-    "userInput": "What is the role of Jal Shakti Ministry?",
-    "response": "The ministry’s role is to develop water resources, monitor groundwater, plan irrigation, and create water conservation schemes."
-  },
-  {
-    "type": "general",
-    "userInput": "Jal Shakti Ministry ki schemes kaun si hain?",
-    "response": "Is ministry ki mukhya yojna Jal Jeevan Mission, Atal Bhujal Yojana aur Namami Gange hain."
-  },
-  {
-    "type": "general",
-    "userInput": "What are the schemes of Jal Shakti Ministry?",
-    "response": "The main schemes are Jal Jeevan Mission, Atal Bhujal Yojana, and Namami Gange."
-  },
-  {
-    "type": "general",
-    "userInput": "Jal Jeevan Mission kya hai?",
-    "response": "Jal Jeevan Mission ka lakshya har ghar ko nal se shuddh paani ki supply dena hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What is Jal Jeevan Mission?",
-    "response": "The goal of Jal Jeevan Mission is to provide clean tap water supply to every household."
-  },
-  {
-    "type": "general",
-    "userInput": "Atal Bhujal Yojana kya hai?",
-    "response": "Atal Bhujal Yojana ka uddeshya groundwater management aur recharge ko promote karna hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What is Atal Bhujal Yojana?",
-    "response": "The purpose of Atal Bhujal Yojana is to promote groundwater management and recharge."
-  },
-  {
-    "type": "general",
-    "userInput": "Namami Gange program kya hai?",
-    "response": "Namami Gange ek flagship program hai jo Ganga nadi ki safai aur sanrakshan ke liye hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What is Namami Gange program?",
-    "response": "Namami Gange is a flagship program for cleaning and conserving the Ganga river."
-  },
-  {
-    "type": "general",
-    "userInput": "Mere district ka groundwater status kya hai?",
-    "response": "Aapke district ka groundwater status INGRES system se check kiya ja sakta hai jo safe, semi-critical, critical ya over-exploited batata hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What is the groundwater status of my district?",
-    "response": "The groundwater status of your district can be checked in the INGRES system, which shows if it is safe, semi-critical, critical, or over-exploited."
-  },
-  {
-    "type": "general",
-    "userInput": "Groundwater safe hai ya over-exploited kaise pata chalega?",
-    "response": "Yeh status CGWB ke groundwater assessment se milta hai jisme recharge aur extraction ka comparison hota hai."
-  },
-  {
-    "type": "general",
-    "userInput": "How to know if groundwater is safe or over-exploited?",
-    "response": "This status comes from CGWB assessments that compare recharge and extraction levels."
-  },
-  {
-    "type": "general",
-    "userInput": "Jal sanrakshan ke liye government kya kar rahi hai?",
-    "response": "Sarkar groundwater management, rainwater harvesting aur watershed development jaise karyakram chala rahi hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What is the government doing for water conservation?",
-    "response": "The government is implementing programs like groundwater management, rainwater harvesting, and watershed development."
-  },
-  {
-    "type": "general",
-    "userInput": "Rainwater harvesting kya hai?",
-    "response": "Rainwater harvesting ka matlab hai barish ka paani ikattha karke dobara upyog karna aur groundwater recharge karna."
-  },
-  {
-    "type": "general",
-    "userInput": "What is rainwater harvesting?",
-    "response": "Rainwater harvesting means collecting rainwater for reuse and groundwater recharge."
-  },
-  {
-    "type": "general",
-    "userInput": "Rainwater harvesting ke liye government kya support karti hai?",
-    "response": "Government subsidies aur guidelines deti hai rainwater harvesting structures banane ke liye."
-  },
-  {
-    "type": "general",
-    "userInput": "What support does government give for rainwater harvesting?",
-    "response": "The government provides subsidies and guidelines for building rainwater harvesting structures."
-  },
-  {
-    "type": "general",
-    "userInput": "Farmers ke liye paani ki schemes kaun si hain?",
-    "response": "Farmers ke liye micro-irrigation schemes, Pradhan Mantri Krishi Sinchai Yojana aur groundwater recharge yojna chal rahi hain."
-  },
-  {
-    "type": "general",
-    "userInput": "What are the water-related schemes for farmers?",
-    "response": "For farmers, schemes like micro-irrigation, Pradhan Mantri Krishi Sinchai Yojana, and groundwater recharge programs are running."
-  },
-  {
-    "type": "general",
-    "userInput": "Watershed management kya hai?",
-    "response": "Watershed management ek prakriya hai jisme paani ko conserve karne ke liye land, water aur vegetation ka integrated use kiya jata hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What is watershed management?",
-    "response": "Watershed management is a process where land, water, and vegetation are managed together to conserve water."
-  },
-  {
-    "type": "general",
-    "userInput": "CGWB kya hai?",
-    "response": "CGWB yaani Central Ground Water Board Bharat ka national agency hai jo groundwater ke assessment aur management ke liye responsible hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What is CGWB?",
-    "response": "CGWB, or Central Ground Water Board, is India’s national agency for groundwater assessment and management."
-  },
-  {
-    "type": "general",
-    "userInput": "Groundwater recharge kaise hota hai?",
-    "response": "Groundwater recharge barish ke paani ke zameen mein seep karne se hota hai, is process ko rainwater harvesting se badhaya ja sakta hai."
-  },
-  {
-    "type": "general",
-    "userInput": "How does groundwater recharge happen?",
-    "response": "Groundwater recharge happens when rainwater seeps into the ground, and this can be enhanced by rainwater harvesting."
-  },
-  {
-    "type": "general",
-    "userInput": "Paani bachane ke liye government ke kya steps hain?",
-    "response": "Sarkar efficient irrigation, micro-irrigation, rainwater harvesting aur awareness campaigns chala rahi hai."
-  },
-  {
-    "type": "general",
-    "userInput": "What steps is the government taking to save water?",
-    "response": "The government is promoting efficient irrigation, micro-irrigation, rainwater harvesting, and awareness campaigns."
-  },
-  {
-    "type": "expert",
-    "userInput": "Groundwater assessment kaise kiya jata hai?",
-    "response": "Groundwater assessment recharge aur extraction ke data ke comparison se kiya jata hai, jisme CGWB aquifer mapping aur monitoring wells ka use karta hai."
-  },
-  {
-    "type": "expert",
-    "userInput": "How is groundwater assessment done?",
-    "response": "Groundwater assessment is done by comparing recharge and extraction data, using CGWB aquifer mapping and monitoring wells."
-  },
-  {
-    "type": "expert",
-    "userInput": "Aquifer mapping kya hai?",
-    "response": "Aquifer mapping ek process hai jisme underground water-bearing layers ki boundaries, storage capacity aur quality ka study kiya jata hai."
-  },
-  {
-    "type": "expert",
-    "userInput": "What is aquifer mapping?",
-    "response": "Aquifer mapping is a process that studies underground water-bearing layers, their boundaries, storage capacity, and quality."
-  },
-  {
-    "type": "expert",
-    "userInput": "Critical groundwater blocks ka matlab kya hai?",
-    "response": "Critical blocks wo hote hain jaha extraction recharge ke 90% se zyada ho jata hai, lekin abhi bhi thoda recharge balance bacha hota hai."
-  },
-  {
-    "type": "expert",
-    "userInput": "What are critical groundwater blocks?",
-    "response": "Critical blocks are areas where extraction exceeds 90% of recharge, but some balance still remains."
-  },
-  {
-    "type": "expert",
-    "userInput": "Groundwater quality monitoring kaise hoti hai?",
-    "response": "Groundwater quality monitoring ke liye CGWB periodic sampling karta hai aur pH, TDS, fluoride, nitrate aur heavy metals jaise parameters test karta hai."
-  },
-  {
-    "type": "expert",
-    "userInput": "How is groundwater quality monitored?",
-    "response": "CGWB monitors groundwater quality by periodic sampling and testing parameters like pH, TDS, fluoride, nitrate, and heavy metals."
-  },
-  {
-    "type": "expert",
-    "userInput": "Water budgeting kya hai?",
-    "response": "Water budgeting ek calculation hai jisme ek area ke recharge aur demand ka comparison karke sustainable use ka plan banaya jata hai."
-  },
-  {
-    "type": "expert",
-    "userInput": "What is water budgeting?",
-    "response": "Water budgeting is a calculation that compares recharge and demand in an area to plan sustainable use."
-  },
-  {
-    "type": "expert",
-    "userInput": "Groundwater recharge structure kaunse hote hain?",
-    "response": "Recharge structures jaise check dams, percolation tanks, recharge wells aur contour bunds groundwater level ko sudharne ke liye banaye jate hain."
-  },
-  {
-    "type": "expert",
-    "userInput": "What are groundwater recharge structures?",
-    "response": "Recharge structures like check dams, percolation tanks, recharge wells, and contour bunds are built to improve groundwater levels."
-  },
-  {
-    "type": "expert",
-    "userInput": "Climate change ka groundwater par kya asar hai?",
-    "response": "Climate change se recharge kam hota hai, demand badh jati hai aur groundwater depletion aur contamination ka risk zyada ho jata hai."
-  },
-  {
-    "type": "expert",
-    "userInput": "What is the impact of climate change on groundwater?",
-    "response": "Climate change reduces recharge, increases demand, and raises the risk of groundwater depletion and contamination."
-  },
-  {
-    "type": "expert",
-    "userInput": "Integrated water resource management kya hai?",
-    "response": "IWRM ek holistic approach hai jisme surface water, groundwater, land aur ecosystems ka integrated planning aur management kiya jata hai."
-  },
-  {
-    "type": "expert",
-    "userInput": "What is integrated water resource management?",
-    "response": "IWRM is a holistic approach that integrates planning and management of surface water, groundwater, land, and ecosystems."
-  },
-  [
-  {
-    "type": "general",
-    "userInput": "What is the Jal Jeevan Mission?",
+    "type": "policy",
+    "userInput": {
+      "english": "Provide groundwater level trends of Delhi for the last 5 years.",
+      "hindi": "पिछले 5 सालों में दिल्ली में पानी का लेवल कितना बदला है, उसका ट्रेंड बताइए।"
+    },
     "response": {
-      "english": "The Jal Jeevan Mission (JJM) is a Government of India programme launched in 2019 to provide safe and adequate drinking water through individual household tap connections to every rural household by 2024.",
-      "hindi": "जल जीवन मिशन (JJM) भारत सरकार की एक योजना है जिसे 2019 में शुरू किया गया था, जिसका लक्ष्य 2024 तक हर ग्रामीण घर को सुरक्षित और पर्याप्त पेयजल व्यक्तिगत नल कनेक्शन के माध्यम से उपलब्ध कराना है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "How many households have been provided tap water connections in Noida?",
-    "response": {
-      "english": "As per available data, in rural parts of Noida (Dadri, Jewar, and Sadar tehsils), out of around 47,540 households, about 5,331 had piped water connections as of 2021. Urban Noida households are largely covered separately through municipal supply.",
-      "hindi": "उपलब्ध आंकड़ों के अनुसार, नोएडा के ग्रामीण हिस्सों (दादरी, जेवर और सदर तहसील) में लगभग 47,540 घरों में से लगभग 5,331 घरों में 2021 तक पाइप जल कनेक्शन उपलब्ध थे। शहरी नोएडा में घरों को मुख्यतः नगरपालिका आपूर्ति से पानी मिलता है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "How many households have been provided tap water connections in Delhi?",
-    "response": {
-      "english": "Specific Jal Jeevan Mission data for Delhi is not available as Delhi is largely urban and JJM focuses on rural households. Water supply in Delhi is mainly handled by the Delhi Jal Board.",
-      "hindi": "दिल्ली के लिए जल जीवन मिशन के विशेष आंकड़े उपलब्ध नहीं हैं क्योंकि दिल्ली मुख्यतः शहरी क्षेत्र है और JJM का फोकस ग्रामीण घरों पर है। दिल्ली में पानी की आपूर्ति मुख्यतः दिल्ली जल बोर्ड द्वारा की जाती है।"
-    }
-  },
-  {
-    "type": "general",
-    "userInput": "Which schemes are currently running under the Ministry of Jal Shakti?",
-    "response": {
-      "english": "Major schemes include: Jal Jeevan Mission (Har Ghar Jal), Namami Gange Programme, Atal Bhujal Yojana, National River Conservation Plan, and Pradhan Mantri Krishi Sinchai Yojana (water components).",
-      "hindi": "मुख्य योजनाओं में शामिल हैं: जल जीवन मिशन (हर घर जल), नमामि गंगे कार्यक्रम, अटल भूजल योजना, राष्ट्रीय नदी संरक्षण योजना और प्रधानमंत्री कृषि सिंचाई योजना (पानी संबंधी घटक)।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "How many households have been provided tap water connections in Greater Noida?",
-    "response": {
-      "english": "No specific verified number is available for Greater Noida households. Rural villages under Gautam Budh Nagar district are being covered gradually under Jal Jeevan Mission.",
-      "hindi": "ग्रेटर नोएडा के घरों के लिए कोई विशेष प्रमाणित आंकड़ा उपलब्ध नहीं है। गौतम बुद्ध नगर जिले के ग्रामीण गांवों को जल जीवन मिशन के तहत धीरे-धीरे कवर किया जा रहा है।"
-    }
-  },
-  {
-    "type": "guide",
-    "userInput": "How do I apply for a new water connection in my village?",
-    "response": {
-      "english": "You need to apply through your Gram Panchayat or local Public Health Engineering Department (PHED). Fill the application, provide ID/address proof, and follow up with the Village Water & Sanitation Committee (VWSC).",
-      "hindi": "आपको अपने ग्राम पंचायत या स्थानीय लोक स्वास्थ्य अभियांत्रिकी विभाग (PHED) के माध्यम से आवेदन करना होगा। आवेदन पत्र भरें, पहचान/पता प्रमाण दें और ग्राम जल एवं स्वच्छता समिति (VWSC) से संपर्क बनाए रखें।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "What is the groundwater level of Galgotias University?",
-    "response": {
-      "english": "Exact data for Galgotias University is not published. In Greater Noida region, groundwater depth is around 11–20 meters in many areas, and declining.",
-      "hindi": "गल्गोटियास यूनिवर्सिटी के लिए सटीक आंकड़े प्रकाशित नहीं हैं। ग्रेटर नोएडा क्षेत्र में भूजल स्तर कई जगहों पर लगभग 11–20 मीटर है और लगातार गिर रहा है।"
-    }
-  },
-  {
-    "type": "safety",
-    "userInput": "Is the water quality safe for drinking in Noida?",
-    "response": {
-      "english": "Water in many parts of Noida shows high TDS (1500–2000 mg/L), hardness, and pipeline contamination, making it unsafe for direct drinking without filtration.",
-      "hindi": "नोएडा के कई हिस्सों में पानी में उच्च TDS (1500–2000 mg/L), कठोरता और पाइपलाइन प्रदूषण पाया गया है, जिससे यह बिना फिल्टर के सीधे पीने योग्य नहीं है।"
-    }
-  },
-  {
-    "type": "report",
-    "userInput": "Show me the latest water quality report for Noida.",
-    "response": {
-      "english": "Latest public reports indicate high dissolved solids and mixed supply (Ganga treated water + groundwater). A comprehensive 2025 lab report is not yet published online.",
-      "hindi": "ताज़ा सार्वजनिक रिपोर्टों में घुले हुए ठोस पदार्थों की उच्च मात्रा और मिश्रित आपूर्ति (गंगा का ट्रीट किया हुआ पानी + भूजल) दिखाया गया है। 2025 की संपूर्ण प्रयोगशाला रिपोर्ट अभी ऑनलाइन प्रकाशित नहीं हुई है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which areas in India are facing water scarcity this year?",
-    "response": {
-      "english": "States like Punjab, Rajasthan, Haryana, Uttar Pradesh, and Bihar face high water stress. Punjab has 19 over-exploited districts, and Noida region faces falling groundwater levels.",
-      "hindi": "पंजाब, राजस्थान, हरियाणा, उत्तर प्रदेश और बिहार जैसे राज्य इस वर्ष जल संकट का सामना कर रहे हैं। पंजाब के 19 जिले अत्यधिक दोहन की श्रेणी में हैं और नोएडा क्षेत्र में भूजल स्तर गिर रहा है।"
-    }
-  },
-  {
-    "type": "guide",
-    "userInput": "How can I report a water supply issue?",
-    "response": {
-      "english": "You can report to your Gram Panchayat, PHED office, or Jal Jeevan Mission helpline (state-specific). In urban areas, report to Jal Board/Municipal water department.",
-      "hindi": "आप अपनी ग्राम पंचायत, PHED कार्यालय या जल जीवन मिशन की हेल्पलाइन (राज्य-विशिष्ट) पर शिकायत दर्ज कर सकते हैं। शहरी क्षेत्रों में, जल बोर्ड/नगर निगम जल विभाग को रिपोर्ट करें।"
-    }
-  },
-  {
-    "type": "guide",
-    "userInput": "Where can I test the water quality of my home supply?",
-    "response": {
-      "english": "You can contact your district water testing laboratory (set up under JJM), State Water Quality Testing Lab, or NABL accredited private labs.",
-      "hindi": "आप अपने जिले की जल परीक्षण प्रयोगशाला (JJM के तहत स्थापित), राज्य जल गुणवत्ता परीक्षण प्रयोगशाला या NABL मान्यता प्राप्त निजी प्रयोगशालाओं से संपर्क कर सकते हैं।"
-    }
-  },
-  {
-    "type": "guide",
-    "userInput": "Who should I contact in case of contaminated water supply in my village?",
-    "response": {
-      "english": "Immediately contact the Gram Panchayat, Village Water & Sanitation Committee (VWSC), and the local PHED office. Also register on Jal Jeevan Mission portal if needed.",
-      "hindi": "प्रदूषित जल आपूर्ति की स्थिति में तुरंत ग्राम पंचायत, ग्राम जल एवं स्वच्छता समिति (VWSC) और स्थानीय PHED कार्यालय से संपर्क करें। आवश्यकता पड़ने पर जल जीवन मिशन पोर्टल पर भी शिकायत दर्ज करें।"
-    }
-  },
-  {
-    "type": "status",
-    "userInput": "How can I track the complaint I registered last week?",
-    "response": {
-      "english": "Use the complaint/acknowledgement number provided by your PHED or Jal Board office. Many states have online portals and helplines for tracking status.",
-      "hindi": "अपने PHED या जल बोर्ड कार्यालय से प्राप्त शिकायत/स्वीकृति संख्या का उपयोग करें। कई राज्यों में स्थिति ट्रैक करने के लिए ऑनलाइन पोर्टल और हेल्पलाइन उपलब्ध हैं।"
-    }
-  },
-  {
-    "type": "awareness",
-    "userInput": "How can I save water in daily usage?",
-    "response": {
-      "english": "Close taps properly, use buckets instead of showers, reuse greywater for gardening, fix leaks, and promote rainwater harvesting.",
-      "hindi": "नल को सही से बंद करें, शावर की जगह बाल्टी का उपयोग करें, बचे हुए पानी को बागवानी में उपयोग करें, रिसाव ठीक करें और वर्षा जल संचयन को बढ़ावा दें।"
+      "english": "Delhi has shown a consistent decline in groundwater levels, particularly in South and Southwest districts, with an average fall of 0.5–1.0 meters per year.",
+      "hindi": "दिल्ली में पिछले 5 सालों से पानी का लेवल लगातार गिर रहा है, खासकर साउथ और साउथ-वेस्ट इलाकों में। हर साल लगभग 0.5–1 मीटर तक नीचे जा रहा है।"
     }
   },
   {
     "type": "policy",
-    "userInput": "What are the government’s initiatives for rainwater harvesting?",
+    "userInput": {
+      "english": "List the critical and over-exploited groundwater blocks in Uttar Pradesh.",
+      "hindi": "यूपी में कौन-कौन से ब्लॉक्स क्रिटिकल या ओवर-एक्सप्लॉइटेड हैं, उनकी लिस्ट दीजिए।"
+    },
     "response": {
-      "english": "Government initiatives include Jal Shakti Abhiyan, Atal Bhujal Yojana, and mandatory rainwater harvesting structures in many states for new buildings.",
-      "hindi": "सरकारी पहलों में जल शक्ति अभियान, अटल भूजल योजना और कई राज्यों में नई इमारतों के लिए अनिवार्य वर्षा जल संचयन संरचनाएं शामिल हैं।"
+      "english": "In Uttar Pradesh, more than 110 blocks are categorized as critical or over-exploited, with highest concentration in Western UP districts such as Meerut, Ghaziabad, and Gautam Buddh Nagar.",
+      "hindi": "उत्तर प्रदेश में 110 से ज़्यादा ब्लॉक्स क्रिटिकल या ओवर-एक्सप्लॉइटेड कैटेगरी में आते हैं। इनमें सबसे ज़्यादा ब्लॉक्स वेस्ट यूपी के जिले जैसे मेरठ, गाज़ियाबाद और गौतम बुद्ध नगर में हैं।"
     }
   },
   {
-    "type": "data",
-    "userInput": "Which districts are declared as drought-prone areas?",
+    "type": "policy",
+    "userInput": {
+      "english": "What percentage of Delhi depends on groundwater extraction?",
+      "hindi": "दिल्ली में कितने परसेंट लोग पानी के लिए भूजल पर डिपेंड करते हैं?"
+    },
     "response": {
-      "english": "Districts in Rajasthan, Maharashtra, Karnataka, Andhra Pradesh, and Gujarat are frequently declared drought-prone by the government depending on rainfall deficit.",
-      "hindi": "राजस्थान, महाराष्ट्र, कर्नाटक, आंध्र प्रदेश और गुजरात के जिले अक्सर वर्षा की कमी के आधार पर सरकार द्वारा सूखा-प्रवण घोषित किए जाते हैं।"
+      "english": "Nearly 50% of Delhi’s water demand is met through groundwater extraction, with higher dependency in peri-urban and unauthorized colonies.",
+      "hindi": "दिल्ली की लगभग 50% पानी की ज़रूरत भूजल से पूरी होती है। पेरि-अर्बन और अनऑथराइज्ड कॉलोनियों में डिपेंडेंसी और भी ज़्यादा है।"
     }
   },
   {
-    "type": "health",
-    "userInput": "What are the health effects of consuming unsafe water?",
+    "type": "policy",
+    "userInput": {
+      "english": "Show water table status of Gautam Buddh Nagar district with category.",
+      "hindi": "गौतम बुद्ध नगर में वॉटर टेबल का स्टेटस और कैटेगरी बताइए।"
+    },
     "response": {
-      "english": "Unsafe water can cause diarrhoea, cholera, typhoid, hepatitis A, arsenic and fluoride poisoning, kidney problems, and long-term health risks.",
-      "hindi": "असुरक्षित पानी पीने से दस्त, हैजा, टाइफाइड, हेपेटाइटिस A, आर्सेनिक और फ्लोराइड विषाक्तता, गुर्दे की समस्याएं और दीर्घकालिक स्वास्थ्य जोखिम हो सकते हैं।"
-    }
-  }
-]
-[
-  {
-    "type": "data",
-    "userInput": "What is the annual rainfall in Andhra Pradesh?",
-    "response": {
-      "english": "The annual rainfall in Andhra Pradesh is 891.99 mm.",
-      "hindi": "आंध्र प्रदेश में वार्षिक वर्षा 891.99 मिमी है।"
+      "english": "Gautam Buddh Nagar district is largely in the 'Over-Exploited' category, with water levels ranging from 20–35 meters below ground level, except a few floodplain villages under 'Semi-Critical'.",
+      "hindi": "गौतम बुद्ध नगर का ज़्यादातर हिस्सा 'ओवर-एक्सप्लॉइटेड' कैटेगरी में आता है। पानी का लेवल 20–35 मीटर नीचे है। सिर्फ यमुना फ्लडप्लेन के पास कुछ गाँव 'सेमी-क्रिटिकल' में आते हैं।"
     }
   },
   {
-    "type": "data",
-    "userInput": "How much groundwater is extractable in Bihar?",
+    "type": "policy",
+    "userInput": {
+      "english": "Compare groundwater recharge and extraction in Greater Noida.",
+      "hindi": "ग्रेटर नोएडा में रीचार्ज और इस्तेमाल का फर्क बताइए।"
+    },
     "response": {
-      "english": "Bihar has 31,32,096.73 ham of annual extractable groundwater resources.",
-      "hindi": "बिहार में 31,32,096.73 हैक्टेयर मीटर वार्षिक निकासी योग्य भूजल संसाधन हैं।"
+      "english": "In Greater Noida, groundwater extraction exceeds recharge by almost 200%, leading to severe imbalance in urban and industrial clusters.",
+      "hindi": "ग्रेटर नोएडा में जितना रीचार्ज होता है, उससे लगभग 200% ज्यादा पानी इस्तेमाल हो रहा है। इसी वजह से अर्बन और इंडस्ट्रियल इलाकों में बैलेंस बिगड़ गया है।"
     }
   },
   {
-    "type": "data",
-    "userInput": "Show me the groundwater extraction levels in Punjab.",
+    "type": "policy",
+    "userInput": {
+      "english": "Give a district-wise summary of safe, semi-critical, and over-exploited areas in Uttar Pradesh.",
+      "hindi": "यूपी के जिलों का डेटा दीजिए कि कहाँ सेफ़ है, कहाँ सेमी-क्रिटिकल है और कहाँ ओवर-एक्सप्लॉइटेड है।"
+    },
     "response": {
-      "english": "Punjab extracts 26,26,761.47 ham of groundwater annually.",
-      "hindi": "पंजाब प्रतिवर्ष 26,26,761.47 हैक्टेयर मीटर भूजल निकालता है।"
+      "english": "Out of 820 blocks in Uttar Pradesh, around 350 are safe, 200 semi-critical, and nearly 270 are over-exploited. Western UP districts show maximum stress compared to Eastern UP.",
+      "hindi": "यूपी के 820 ब्लॉक्स में से लगभग 350 सेफ़ हैं, 200 सेमी-क्रिटिकल हैं और करीब 270 ओवर-एक्सप्लॉइटेड हैं। वेस्ट यूपी के जिलों में स्थिति सबसे खराब है, ईस्ट यूपी थोड़ा बेहतर है।"
     }
   },
   {
-    "type": "data",
-    "userInput": "Which state has the highest rainfall?",
+    "type": "policy",
+    "userInput": {
+      "english": "Suggest policy interventions for Delhi to improve groundwater management.",
+      "hindi": "दिल्ली में पानी मैनेजमेंट सुधारने के लिए कुछ पॉलिसी सुझाव दीजिए।"
+    },
     "response": {
-      "english": "Arunachal Pradesh has the highest annual rainfall at 3,318.78 mm.",
-      "hindi": "अरुणाचल प्रदेश में सबसे अधिक वार्षिक वर्षा होती है जो 3,318.78 मिमी है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which state extracts the most groundwater?",
-    "response": {
-      "english": "Uttar Pradesh extracts the most groundwater at 46,88,501.16 ham annually.",
-      "hindi": "उत्तर प्रदेश सबसे अधिक भूजल निकालता है, जो प्रतिवर्ष 46,88,501.16 हैक्टेयर मीटर है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Compare groundwater extraction in Madhya Pradesh and Maharashtra.",
-    "response": {
-      "english": "Madhya Pradesh: 20,25,793.92 ham\nMaharashtra: 16,81,918.51 ham\n👉 Madhya Pradesh extracts more groundwater than Maharashtra.",
-      "hindi": "मध्य प्रदेश: 20,25,793.92 हैक्टेयर मीटर\nमहाराष्ट्र: 16,81,918.51 हैक्टेयर मीटर\n👉 मध्य प्रदेश, महाराष्ट्र से अधिक भूजल निकालता है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which states have rainfall above 2000 mm annually?",
-    "response": {
-      "english": "States with rainfall above 2000 mm are: Arunachal Pradesh, Assam, Goa, Kerala, Meghalaya, Mizoram, Sikkim, Tripura, Andaman & Nicobar Islands.",
-      "hindi": "जिन राज्यों/केंद्र शासित प्रदेशों में 2000 मिमी से अधिक वर्षा होती है वे हैं: अरुणाचल प्रदेश, असम, गोवा, केरल, मेघालय, मिज़ोरम, सिक्किम, त्रिपुरा, अंडमान और निकोबार द्वीप।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which states are extracting more groundwater than their resources?",
-    "response": {
-      "english": "States over-extracting groundwater: Haryana, Punjab, Rajasthan.",
-      "hindi": "जिन राज्यों में संसाधनों से अधिक भूजल निकाला जा रहा है: हरियाणा, पंजाब, राजस्थान।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which state has the lowest annual rainfall?",
-    "response": {
-      "english": "Ladakh has the lowest rainfall at 69.36 mm.",
-      "hindi": "लद्दाख में सबसे कम वर्षा होती है, जो 69.36 मिमी है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "List the top 5 states with the highest groundwater resources.",
-    "response": {
-      "english": "Top 5 states with highest groundwater resources: Uttar Pradesh, Madhya Pradesh, Bihar, Maharashtra, Gujarat.",
-      "hindi": "सबसे अधिक भूजल संसाधनों वाले शीर्ष 5 राज्य: उत्तर प्रदेश, मध्य प्रदेश, बिहार, महाराष्ट्र, गुजरात।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which state is over-exploiting groundwater the most?",
-    "response": {
-      "english": "Punjab, with 156% extraction (26,26,761.47 ham extracted vs 16,79,943.44 ham available).",
-      "hindi": "पंजाब, जहां 156% निकासी होती है (26,26,761.47 हैक्टेयर मीटर निकाला गया जबकि 16,79,943.44 हैक्टेयर मीटर उपलब्ध था)।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Compare rainfall in Rajasthan and Kerala.",
-    "response": {
-      "english": "Rajasthan: 477.06 mm\nKerala: 2,800.10 mm\n👉 Kerala receives much higher rainfall than Rajasthan.",
-      "hindi": "राजस्थान: 477.06 मिमी\nकेरल: 2,800.10 मिमी\n👉 केरल में राजस्थान की तुलना में कहीं अधिक वर्षा होती है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "What is the groundwater extraction percentage in Haryana?",
-    "response": {
-      "english": "Haryana extracts about 137% of its available groundwater (12,71,939.84 / 9,30,112.81).",
-      "hindi": "हरियाणा अपने उपलब्ध भूजल का लगभग 137% निकालता है (12,71,939.84 / 9,30,112.81)।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which state has the maximum ratio of extraction to resources?",
-    "response": {
-      "english": "Punjab, with extraction at 156% of resources.",
-      "hindi": "पंजाब, जहां निकासी संसाधनों का 156% है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which state has the lowest groundwater extraction compared to its availability?",
-    "response": {
-      "english": "Arunachal Pradesh, with only 0.4% extraction (1,343.76 / 3,28,838.35).",
-      "hindi": "अरुणाचल प्रदेश, जहां केवल 0.4% निकासी होती है (1,343.76 / 3,28,838.35)।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "How much groundwater is extracted in Uttar Pradesh as a percentage of India?",
-    "response": {
-      "english": "Uttar Pradesh extracts 46,88,501.16 ham, about 19% of India’s total groundwater extraction.",
-      "hindi": "उत्तर प्रदेश 46,88,501.16 हैक्टेयर मीटर भूजल निकालता है, जो भारत की कुल निकासी का लगभग 19% है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "What is the total annual rainfall in India?",
-    "response": {
-      "english": "The average annual rainfall in India is 1,054.55 mm.",
-      "hindi": "भारत में औसत वार्षिक वर्षा 1,054.55 मिमी है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "What is the total groundwater extraction in India?",
-    "response": {
-      "english": "India extracts 2,47,16,472.34 ham of groundwater annually.",
-      "hindi": "भारत प्रतिवर्ष 2,47,16,472.34 हैक्टेयर मीटर भूजल निकालता है।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "How much groundwater is extractable across all states combined?",
-    "response": {
-      "english": "The total extractable groundwater resources in India are 4,07,16,046.48 ham.",
-      "hindi": "भारत में कुल निकासी योग्य भूजल संसाधन 4,07,16,046.48 हैक्टेयर मीटर हैं।"
-    }
-  },
-  {
-    "type": "data",
-    "userInput": "Which region contributes the most to India’s groundwater extraction?",
-    "response": {
-      "english": "Uttar Pradesh, with 46,88,501.16 ham, contributes the most.",
-      "hindi": "उत्तर प्रदेश, 46,88,501.16 हैक्टेयर मीटर के साथ, भारत के भूजल दोहन में सबसे अधिक योगदान देता है।"
-    }
-  }
-]
-[
-  {
-    "type": "agriculture",
-    "userInput": "1 बीघा मक्का में कितना पानी लगता है? / How much water is required for 1 bigha of maize?",
-    "response": {
-      "hindi": "1 बीघा मक्का की फसल के लिए लगभग 11–15 लाख लीटर पानी (1100–1500 m³) पूरे सीजन में चाहिए, जिसे 6–8 बार सिंचाई में दिया जाता है।",
-      "english": "For 1 bigha of maize, around 11–15 lakh liters of water (1100–1500 m³) is required during the entire season, usually given in 6–8 irrigations."
-    }
-  },
-  {
-    "type": "agriculture",
-    "userInput": "मक्का की फसल के लिए पानी का pH कितना होना चाहिए? / What should be the pH of water for maize crop?",
-    "response": {
-      "hindi": "मक्का के लिए पानी का pH 6.0–7.5 होना चाहिए। सबसे अच्छा 6.5–7.0 है।",
-      "english": "The pH of water for maize should be between 6.0–7.5, with the ideal range being 6.5–7.0."
+      "english": "Recommended interventions include strict regulation of borewells, large-scale rainwater harvesting, wastewater recycling, and promoting less water-intensive urban landscaping.",
+      "hindi": "सुझाव हैं कि बोरवेल पर कंट्रोल रखा जाए, बड़े लेवल पर रेनवॉटर हार्वेस्टिंग हो, वेस्टवॉटर का रीसाइक्लिंग किया जाए और शहर में कम पानी वाली लैंडस्केपिंग को बढ़ावा दिया जाए।"
     }
   }
 ]
