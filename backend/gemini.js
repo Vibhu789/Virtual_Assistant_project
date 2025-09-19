@@ -117,6 +117,76 @@ Instructions:
     "userInput": "Groundwater recharge kaise hota hai?",
     "response": "Groundwater recharge mainly barish aur floodplains se hota hai. Rainwater harvesting se recharge aur improve kiya ja sakta hai."
   }
+  {
+    "type": "policy",
+    "userInput": "Provide groundwater level trends of Delhi for the last 5 years.",
+    "response": "Delhi has shown a consistent decline in groundwater levels, particularly in South and Southwest districts, with an average fall of 0.5–1.0 meters per year."
+  },
+  {
+    "type": "policy",
+    "userInput": "Pichhle 5 saalon me Dilli ke groundwater level ka trend batayiye.",
+    "response": "Dilli me pichhle 5 saalon se groundwater level lagataar gir raha hai, khaaskar South aur South-West zilon me. Har saal lagbhag 0.5–1 meter neeche ja raha hai."
+  },
+  {
+    "type": "policy",
+    "userInput": "List the critical and over-exploited groundwater blocks in Uttar Pradesh.",
+    "response": "In Uttar Pradesh, more than 110 blocks are categorized as critical or over-exploited, with highest concentration in Western UP districts such as Meerut, Ghaziabad, and Gautam Buddh Nagar."
+  },
+  {
+    "type": "policy",
+    "userInput": "UP ke critical aur over-exploited groundwater blocks ki list dijiye.",
+    "response": "Uttar Pradesh me 110 se zyada blocks critical ya over-exploited category me hain. Sabse zyada West UP ke districts jaise Meerut, Ghaziabad aur Gautam Buddh Nagar me hain."
+  },
+  {
+    "type": "policy",
+    "userInput": "What percentage of Delhi depends on groundwater extraction?",
+    "response": "Nearly 50% of Delhi’s water demand is met through groundwater extraction, with higher dependency in peri-urban and unauthorized colonies."
+  },
+  {
+    "type": "policy",
+    "userInput": "Dilli me kitne percent log groundwater pe depend karte hain?",
+    "response": "Dilli ki lagbhag 50% paani ki zaroorat groundwater se poori hoti hai. Peri-urban aur unauthorized colonies me dependency aur bhi zyada hai."
+  },
+  {
+    "type": "policy",
+    "userInput": "Show water table status of Gautam Buddh Nagar district with category.",
+    "response": "Gautam Buddh Nagar district is largely in the 'Over-Exploited' category, with water levels ranging from 20–35 meters below ground level, except a few floodplain villages under 'Semi-Critical'."
+  },
+  {
+    "type": "policy",
+    "userInput": "Gautam Buddh Nagar ka water table status aur category batayiye.",
+    "response": "Gautam Buddh Nagar district zyada hissa 'Over-Exploited' category me aata hai. Yahan paani ka level 20–35 meter neeche hai. Sirf kuch gaon jo Yamuna floodplain ke paas hain, 'Semi-Critical' category me hain."
+  },
+  {
+    "type": "policy",
+    "userInput": "Compare groundwater recharge and extraction in Greater Noida.",
+    "response": "In Greater Noida, groundwater extraction exceeds recharge by almost 200%, leading to severe imbalance in urban and industrial clusters."
+  },
+  {
+    "type": "policy",
+    "userInput": "Greater Noida me recharge aur extraction ka comparison dijiye.",
+    "response": "Greater Noida me groundwater extraction recharge se lagbhag 200% zyada hai. Is wajah se urban aur industrial areas me kaafi imbalance ho gaya hai."
+  },
+  {
+    "type": "policy",
+    "userInput": "Give a district-wise summary of safe, semi-critical, and over-exploited areas in Uttar Pradesh.",
+    "response": "Out of 820 blocks in Uttar Pradesh, around 350 are safe, 200 semi-critical, and nearly 270 are over-exploited. Western UP districts show maximum stress compared to Eastern UP."
+  },
+  {
+    "type": "policy",
+    "userInput": "UP ke districts ka summary dijiye - kahan Safe hai, kahan Semi-Critical hai aur kahan Over-Exploited hai.",
+    "response": "UP ke total 820 blocks me se lagbhag 350 Safe hain, 200 Semi-Critical aur kareeb 270 Over-Exploited hain. West UP me sabse zyada stress hai, East UP thoda better hai."
+  },
+  {
+    "type": "policy",
+    "userInput": "Suggest policy interventions for Delhi to improve groundwater management.",
+    "response": "Recommended interventions include strict regulation of borewells, large-scale rainwater harvesting, wastewater recycling, and promoting less water-intensive urban landscaping."
+  },
+  {
+    "type": "policy",
+    "userInput": "Dilli me groundwater management improve karne ke liye kuch policy suggestions dijiye.",
+    "response": "Suggestions hain ki borewells pe strict control ho, bade level pe rainwater harvesting kiya jaye, wastewater recycle ho aur kam paani wali landscaping promote ki jaye."
+  }
 ]
 
 
