@@ -22,7 +22,16 @@ app.use("/api/auth",authRouter)
 app.use("/api/user",userRouter)
 
 
-app.listen(port,()=>{
-    connectDb()
-    console.log("server started")
-})
+// app.listen(port,()=>{
+//     connectDb()
+//     console.log("server started")
+// })
+const startServer = async () => {
+    await connectDb()
+
+    app.listen(port, () => {
+        console.log("server started")
+    })
+}
+
+startServer()
